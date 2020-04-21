@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "Vitol Downloader",
+  "version": "1.0",
+
+  "description": "Download Videos from Vitol.",
+  "homepage_url": "https://github.com/sahilarora3117/vitoldownloader",
+
+  "icons": {
+    "48": "icon/icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.vitol.ac.in/*"],
+      "js": []
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "icon/iconhead.png",
+    "default_title": "VitolDownloader",
+    "default_popup": "download.html"
+  }
+
+}
