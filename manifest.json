@@ -11,8 +11,7 @@
     "48": "icon/icon.png"
   },
   "permissions": [
-    "activeTab",
-    "tabs"
+    "activeTab"
   ],
   "content_scripts": [
     {
