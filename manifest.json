@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Vitol Downloader",
-  "version": "1.1",
+  "version": "1.2",
 
   "description": "Download Videos from vitol.ac.in (VIT Online Teaching Platform).",
   "homepage_url": "https://github.com/sahilarora3117/vitoldownloader",
